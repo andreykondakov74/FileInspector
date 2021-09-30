@@ -1,0 +1,13 @@
+Brief description: Simple file inspection tool
+Requires: Qt 5.0
+Author: Andrey Kondakov
+
+Detailed description
+--------------------
+
+The tool provides a mean to walk through a file system viewing folder contents, including sub-folders and files.
+An Ad-hoc folder listing is provided. Content of text files are is displayed at preview window at the right of the application pane.
+For other files, e.g. without plain text content, name, size and type are given in the preview area.
+
+The file system iteration is done using Qt TreeView utilizing FileSystemModel Qt functionality.
+Any folder can be selected using either Open menu item that resides in the main application menu or if manually given in a line edit UI control on the right side.
